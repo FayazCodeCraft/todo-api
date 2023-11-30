@@ -6,7 +6,7 @@ namespace TodoApi.Model
     public class Todo
     {
         [Range(1, int.MaxValue, ErrorMessage = "Id must be a positive integer")]
-        public int Id { get; set; } = 1;
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Title is required")]
         [StringLength(10, MinimumLength = 5, ErrorMessage = "Title must be between 5 and 10 characters")]
