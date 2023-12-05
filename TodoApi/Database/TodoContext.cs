@@ -6,7 +6,7 @@ namespace TodoApi.Database
     /// <summary>
     /// Represents the database context for managing Todo items.
     /// </summary>
-    public class  TodoContext:DbContext
+    public class TodoContext : DbContext
     {
         /// <summary>
         ///  initializes a TodoContext instance with the specified DbContextOptions.

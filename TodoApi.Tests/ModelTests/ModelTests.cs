@@ -149,7 +149,7 @@ namespace TodoApi.Tests.ModelTests
                 Id = 1,
                 Title = "ValidTitle",
                 Description = "ValidDescription",
-                DueDate = "2023-12-01", 
+                DueDate = "2023-12-01",
             };
 
             // Act

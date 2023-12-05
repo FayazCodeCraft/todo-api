@@ -16,7 +16,7 @@ namespace TodoApi.Utilities
         /// <returns>Sucess if validation is correct,otherwise throw error</returns>
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            string dateString = (string) value;
+            string dateString = (string)value;
 
             if (DateTime.TryParseExact(dateString, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dueDate))
             {
